@@ -1,1 +1,9 @@
+import math #import math from library
 
+r=int(input("Radius of Circle : ")) 
+
+area=math.pi*r**2    
+circumfrence = math.pi*r*2
+
+print("Area of cicle : ",area)
+print("Circumfrence of cicle : ",circumfrence)
